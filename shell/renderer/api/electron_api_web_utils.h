@@ -10,6 +10,8 @@
 namespace electron::api::web_utils {
 
 std::string GetPathForFile(v8::Isolate* isolate, v8::Local<v8::Value> file);
+void ImportSharedTextureForGpuDevice(
+    const v8::FunctionCallbackInfo<v8::Value>& info);
 
 }  // namespace electron::api::web_utils
 
