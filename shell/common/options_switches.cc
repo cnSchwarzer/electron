@@ -156,7 +156,7 @@ const char kAllowRunningInsecureContent[] = "allowRunningInsecureContent";
 
 const char kOffscreen[] = "offscreen";
 
-const char kOffscreenUseSharedTexture[] = "offscreenUseSharedTexture";
+const char kUseSharedTexture[] = "useSharedTexture";
 
 const char kNodeIntegrationInSubFrames[] = "nodeIntegrationInSubFrames";
 
